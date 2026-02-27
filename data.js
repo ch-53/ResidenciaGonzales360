@@ -24,8 +24,8 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -2.4451403542668793,
-        "pitch": -0.004096009224131336,
+        "yaw": -1.7508563576648406,
+        "pitch": -0.0009544165705257512,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
@@ -74,8 +74,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.0739683970102867,
-          "pitch": 0.2936563397173071,
+          "yaw": -2.075948129273483,
+          "pitch": 0.30073774810452036,
           "rotation": 0,
           "target": "0-sala-de-estar"
         }
@@ -112,10 +112,10 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.355876345020654,
-          "pitch": 0.30007951058171933,
-          "rotation": 6.283185307179586,
-          "target": "3-comedor"
+          "yaw": 2.8896408392769724,
+          "pitch": 0.21852256454571517,
+          "rotation": 18.06415775814132,
+          "target": "4-entrada"
         }
       ],
       "infoHotspots": []
@@ -165,6 +165,44 @@ var APP_DATA = {
           "yaw": -1.4194751846740612,
           "pitch": -0.05641925308441742,
           "rotation": 14.137166941154074,
+          "target": "1-cuarto-principal"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-entrada",
+      "name": "ENTRADA",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -1.2290223396447963,
+        "pitch": 0.0006349556259479527,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.6115660793106237,
+          "pitch": 0.12864214806337415,
+          "rotation": 1.5707963267948966,
           "target": "1-cuarto-principal"
         }
       ],
