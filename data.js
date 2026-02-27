@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-sala",
-      "name": "sala",
+      "id": "0-sala-de-estar",
+      "name": "SALA DE ESTAR",
       "levels": [
         {
           "tileSize": 256,
@@ -39,14 +39,14 @@ var APP_DATA = {
           "yaw": 1.1385950961029838,
           "pitch": 0.42999743644112165,
           "rotation": 0,
-          "target": "1-cuarto"
+          "target": "1-cuarto-principal"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-cuarto",
-      "name": "cuarto",
+      "id": "1-cuarto-principal",
+      "name": "CUARTO PRINCIPAL",
       "levels": [
         {
           "tileSize": 256,
@@ -77,14 +77,14 @@ var APP_DATA = {
           "yaw": -2.0739683970102867,
           "pitch": 0.2936563397173071,
           "rotation": 0,
-          "target": "0-sala"
+          "target": "0-sala-de-estar"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-cocina-2",
-      "name": "cocina 2",
+      "id": "2-cocina",
+      "name": "COCINA",
       "levels": [
         {
           "tileSize": 256,
@@ -106,14 +106,14 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -0.0842381729728352,
-        "pitch": 0.004993257212454694,
+        "yaw": 0.2397610254414957,
+        "pitch": 0.000280868232074738,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -2.3389781526580222,
-          "pitch": 0.30257638495556094,
+          "yaw": -2.355876345020654,
+          "pitch": 0.30007951058171933,
           "rotation": 6.283185307179586,
           "target": "3-comedor"
         }
@@ -122,7 +122,7 @@ var APP_DATA = {
     },
     {
       "id": "3-comedor",
-      "name": "comedor",
+      "name": "COMEDOR",
       "levels": [
         {
           "tileSize": 256,
@@ -150,22 +150,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.5371109482033418,
-          "pitch": 0.45427641837549615,
+          "yaw": 1.5371114642337602,
+          "pitch": 0.4526715492096862,
           "rotation": 0.7853981633974483,
-          "target": "2-cocina-2"
+          "target": "2-cocina"
         },
         {
           "yaw": -1.814484833904272,
           "pitch": 0.45006575357889567,
           "rotation": 0,
-          "target": "0-sala"
+          "target": "0-sala-de-estar"
         },
         {
           "yaw": -1.4194751846740612,
           "pitch": -0.05641925308441742,
           "rotation": 14.137166941154074,
-          "target": "1-cuarto"
+          "target": "1-cuarto-principal"
         }
       ],
       "infoHotspots": []
