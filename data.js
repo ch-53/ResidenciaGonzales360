@@ -22,68 +22,30 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 2048,
+      "faceSize": 1456,
       "initialViewParameters": {
-        "yaw": -1.7508563576648406,
-        "pitch": -0.0009544165705257512,
-        "fov": 1.5707963267948966
+        "yaw": -1.6181424179469097,
+        "pitch": 0.0031800870770535283,
+        "fov": 1.4795154723455672
       },
       "linkHotspots": [
         {
-          "yaw": 2.960788949508405,
-          "pitch": 0.3731489518494957,
+          "yaw": 1.1160722144623954,
+          "pitch": 0.2378408545695052,
           "rotation": 0,
-          "target": "3-comedor"
+          "target": "4-habitacin-principal"
         },
         {
-          "yaw": 1.1385950961029838,
-          "pitch": 0.42999743644112165,
+          "yaw": 2.845111163303132,
+          "pitch": 0.1861182587128205,
           "rotation": 0,
-          "target": "1-cuarto-principal"
+          "target": "2-comedor"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-cuarto-principal",
-      "name": "CUARTO PRINCIPAL",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 0.8864148871099147,
-        "pitch": 0.0031066941576654017,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.075948129273483,
-          "pitch": 0.30073774810452036,
-          "rotation": 0,
-          "target": "0-sala-de-estar"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-cocina",
+      "id": "1-cocina",
       "name": "COCINA",
       "levels": [
         {
@@ -104,24 +66,30 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 2048,
+      "faceSize": 1456,
       "initialViewParameters": {
-        "yaw": 0.2397610254414957,
-        "pitch": 0.000280868232074738,
-        "fov": 1.5707963267948966
+        "yaw": -0.15109977944857889,
+        "pitch": -0.010902270463457597,
+        "fov": 1.4786529366841208
       },
       "linkHotspots": [
         {
-          "yaw": 2.8896408392769724,
-          "pitch": 0.21852256454571517,
-          "rotation": 18.06415775814132,
-          "target": "4-entrada"
+          "yaw": 2.766584430838023,
+          "pitch": 0.1622833984171823,
+          "rotation": 5.497787143782138,
+          "target": "0-sala-de-estar"
+        },
+        {
+          "yaw": 2.991686844923372,
+          "pitch": -0.017577657723549578,
+          "rotation": 7.853981633974483,
+          "target": "4-habitacin-principal"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-comedor",
+      "id": "2-comedor",
       "name": "COMEDOR",
       "levels": [
         {
@@ -142,36 +110,24 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 2048,
+      "faceSize": 1456,
       "initialViewParameters": {
-        "yaw": 1.4959553548340008,
-        "pitch": -0.006283185307150774,
-        "fov": 1.5707963267948966
+        "yaw": 1.4873633153073662,
+        "pitch": 0.010748515225719402,
+        "fov": 1.4795154723455672
       },
       "linkHotspots": [
         {
-          "yaw": 1.5371114642337602,
-          "pitch": 0.4526715492096862,
+          "yaw": 1.4662615141334836,
+          "pitch": 0.21704365508901802,
           "rotation": 0.7853981633974483,
-          "target": "2-cocina"
-        },
-        {
-          "yaw": -1.814484833904272,
-          "pitch": 0.45006575357889567,
-          "rotation": 0,
-          "target": "0-sala-de-estar"
-        },
-        {
-          "yaw": -1.4194751846740612,
-          "pitch": -0.05641925308441742,
-          "rotation": 14.137166941154074,
-          "target": "1-cuarto-principal"
+          "target": "1-cocina"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-entrada",
+      "id": "3-entrada",
       "name": "ENTRADA",
       "levels": [
         {
@@ -192,18 +148,49 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 2048,
+      "faceSize": 1456,
       "initialViewParameters": {
-        "yaw": -1.2290223396447963,
-        "pitch": 0.0006349556259479527,
-        "fov": 1.5707963267948966
+        "yaw": -1.2414742934122316,
+        "pitch": -0.011499409989465192,
+        "fov": 1.4795154723455672
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-habitacin-principal",
+      "name": "HABITACIÓN PRINCIPAL",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1456,
+      "initialViewParameters": {
+        "yaw": 1.1176327465944347,
+        "pitch": -0.002460847837603808,
+        "fov": 1.4795154723455672
       },
       "linkHotspots": [
         {
-          "yaw": -0.6115660793106237,
-          "pitch": 0.12864214806337415,
-          "rotation": 1.5707963267948966,
-          "target": "1-cuarto-principal"
+          "yaw": -2.1665295243582587,
+          "pitch": 0.1846750410973499,
+          "rotation": 0,
+          "target": "0-sala-de-estar"
         }
       ],
       "infoHotspots": []
